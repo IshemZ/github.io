@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Mon Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Bonjour, je suis [Votre Nom]</h1>
+        <p>Analyste de données | Développeur | Enthousiaste de la Data</p>
+    </section>
+
+    <section id="about">
+        <h2>À Propos de Moi</h2>
+        <p>Passionné par les données, je transforme les chiffres en insights pour résoudre des problèmes complexes. Voici un aperçu de mes compétences :</p>
+        <ul>
+            <li>Analyse et visualisation de données</li>
+            <li>Développement Python et SQL</li>
+            <li>Machine Learning et IA</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Mes Projets</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Analyse de Sentiments</h3>
+                <p>Utilisation de Python pour analyser les sentiments des tweets et visualiser les tendances.</p>
+                <a href="https://github.com/monprofil/monprojet" target="_blank">Voir le projet</a>
+            </div>
+            <div class="project-card">
+                <h3>Prédiction de Prix</h3>
+                <p>Modèle de régression linéaire pour prédire les prix immobiliers à partir de caractéristiques de logement.</p>
+                <a href="https://github.com/monprofil/monprojet" target="_blank">Voir le projet</a>
+            </div>
+            <div class="project-card">
+                <h3>Tableau de Bord</h3>
+                <p>Tableau de bord interactif créé avec Tableau pour explorer les données démographiques.</p>
+                <a href="https://github.com/monprofil/monprojet" target="_blank">Voir le projet</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-Moi</h2>
+        <form action="https://formspree.io/f/mvovovlv" method="POST">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
